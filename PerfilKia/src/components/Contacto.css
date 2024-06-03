@@ -1,0 +1,80 @@
+/* Contacto.css */
+
+/* Estilos generales del componente */
+.contacto-container {
+    max-width: 600px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: black; /* Fondo negro */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white; /* Color del texto */
+  }
+  
+  /* Estilos del logo */
+  .contacto-container .logo img {
+    height: 100px; /* Ajusta la altura según tus necesidades */
+  }
+  
+  /* Estilos de la información del asesor */
+  .contacto-container .info-asesor {
+    margin-top: 20px;
+  }
+  
+  .contacto-container .info-asesor h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .contacto-container .info-asesor p {
+    margin-bottom: 30px;
+  }
+  
+  .contacto-container .info-asesor ul {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+  }
+  
+  .contacto-container .info-asesor li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .contacto-container .info-asesor label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contacto-container .info-asesor input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .contacto-container .info-asesor input:focus {
+    border-color: white;
+    outline: none;
+  }
+  
+  .contacto-container .info-asesor button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4a4a4a;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contacto-container .info-asesor button:hover {
+    background-color: white;
+  }
+  
+  .contacto-container .info-asesor button:focus {
+    outline: none;
+  }
+  

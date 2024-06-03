@@ -1,0 +1,47 @@
+/* Estilos generales del navbar */
+nav {
+  background-color: white; /* Cambia este color según tu preferencia */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  height: 80px; /* Ajusta la altura según tus necesidades */
+  transition: background-color 0.3s ease;
+}
+
+nav:hover {
+  background-color: black; /* Color de fondo al pasar el cursor */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav:hover a {
+  color: white; /* Color de los enlaces al pasar el cursor */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.logo img {
+  height: 60px; /* Ajusta la altura de la imagen según tus necesidades */
+}
